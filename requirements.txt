@@ -1,0 +1,10 @@
+attrs==17.3.0
+Automat==0.6.0
+constantly==15.1.0
+hyperlink==17.3.1
+incremental==17.5.0
+nsone==0.9.16
+six==1.11.0
+Twisted==17.9.0
+wheel==0.24.0
+zope.interface==4.4.3
