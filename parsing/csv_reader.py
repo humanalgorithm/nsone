@@ -6,14 +6,14 @@ from shared import zone_store
 
 BASE_DIRECTORY = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FILE_DIRECTORY = os.path.join(BASE_DIRECTORY, "data")
-file = os.path.join(FILE_DIRECTORY, "ZoneData3.csv")
-
 
 class NSONECsvReader():
-    def __init__(self):
+    def __init__(self, file_name):
         self._batch_size = 4
+        self._file = os.path.join(FILE_DIRECTORY, file_name)
+
     def import_zones(self):
-        with open(file) as csvfile:
+        with open(self._file) as csvfile:
             reader = csv.DictReader(csvfile)
             for row_data in reader:
                 zone_name = row_data['Zone']
