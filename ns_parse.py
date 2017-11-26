@@ -16,6 +16,8 @@ class NSONECsvReader(object):
         self.processed_zones = set()
         self._nsone = nsone.NSONE(apiKey='YmZB3gnt2MxolyCCKMOR')
 
+
+
     def import_zones(self):
         with open(file) as csvfile:
             reader = csv.DictReader(csvfile)
