@@ -1,1 +1,1 @@
-![ScreenShot](https://raw.github.com/humanalgorithm/nsone/master/public/img/nsone_screenshot.png)
+![ScreenShot](https://raw.githubusercontent.com/humanalgorithm/nsone/master/nsone_screenshot.png)
